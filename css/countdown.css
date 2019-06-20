@@ -85,3 +85,12 @@ a {
   text-align: left;
   color: #ffffff;
 }
+#logo {
+  height: 100px;
+}
+
+@media only screen and (max-width: 500px) {
+  #logo {
+    height: 40px;
+  }
+}
